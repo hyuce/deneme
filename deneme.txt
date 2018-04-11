@@ -1,0 +1,7 @@
+Dosya okumak için kullanılan metotları anlatırken, dosya bir kez okunduktan sonra imlecin otomatik olarak dosyanın başına 
+dönmediğini görmüştük. Yani mesela read() metoduyla dosyayı bir kez okuduktan sonra, dosyayı tekrar okumak istersek elde 
+Satır arası eklemeler 
+edeceğimiz şey boş bir karakter dizisi olacaktır. Çünkü dosya okunduktan sonra okunacak başka bir satır kalmamış, imleç dosya 
+sonuna ulaşmış ve otomatik olarak da başa dönmemiştir. Bu olguyu etkileşimli kabuk üzerinde daha net bir şekilde görebileceğinizi 
+biliyorsunuz.
+Merhaba Dünya !
